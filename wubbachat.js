@@ -5,7 +5,7 @@ const qrcode = require('qrcode-terminal');
 const WHATSAPP_GROUP_ID = '120363295554842338@g.us';
 const DISCORD_CHANNEL_ID = '1307408889108496454';
 const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1307438621963456565/0_KvmaHHMMQjEeVBdIq9gpgMbFKORsqELLYbTLKktygqe9TbKK4glnNuvm4-3HWOZT1G';
-const DISCORD_TOKEN = 'MTMwNzQwMTgxMzA5OTU0NDYyNg.GvSIxM.R6AjTvFxvl_BMhJW9UKPah6YTUUMBNoYmwZVHo';
+
 
 const discordClient = new Client({
     intents: [GatewayIntentBits.DirectMessages, GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMessages]
