@@ -2,7 +2,6 @@ const { Client, GatewayIntentBits, WebhookClient, EmbedBuilder } = require('disc
 const { Client: WhatsAppClient, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const express = require('express');
-const { Client, GatewayIntentBits } = require('discord.js');
 require('dotenv').config();
 
 const app = express();
